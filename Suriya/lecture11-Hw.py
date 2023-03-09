@@ -1,3 +1,7 @@
+'''
+This is Command zone.
+'''
+
 print("----------------------------------")
 print("Sun Shine Shop VAT INVOICE")
 print("----------------------------------")
