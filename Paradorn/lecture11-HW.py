@@ -10,5 +10,8 @@ print("Chang           X 1  :  65 THB")
 print("Wine            X 1  :  1532 THB")
 print("Vodka & Orange  X 1  :  564 THB")
 print("----------------------------------")
-print(65+465+215+2419+1729+65+1532+564)
-print("Total          :  7054 THB")
+'''
+คำนวณ ราคา ทั้งหมด
+'''
+Total = 65+465+215+2419+1729+65+1532+564
+print("Total          :",Total," THB")
