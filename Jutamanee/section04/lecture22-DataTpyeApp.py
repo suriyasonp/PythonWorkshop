@@ -1,0 +1,7 @@
+print("welcome to Sommai Shop")
+print("----------------------")
+print("Apple  x", 3, 30,"THB - ",3*30,"THB")
+print("Banana x", 10, 1,"THB - ",1*10,"THB")
+print("----------------------")
+print("Total",(3*30)+(1*10),"THB")
+print("Thank You : Sommai Shop")
