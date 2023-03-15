@@ -13,3 +13,7 @@ print(x+y)
 
 pi = 3.14
 print("Pi is ", math.pi)
+
+
+y = "5"
+print(5+y)
