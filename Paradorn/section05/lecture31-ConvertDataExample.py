@@ -2,7 +2,7 @@
 
 a = "10"
 b = 5
-c = int(a) + b
+c = float(a) + b
 print(c)
 
 
