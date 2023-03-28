@@ -1,6 +1,3 @@
-usernameInput = input("Username: ")
-passwordInput = input("Password: ")
-while usernameInput != "admin" or passwordInput != "1234":
-    usernameInput = input("Username: ")
-    passwordInput = input("Password: ")
-print("Done !")
+print(list(range(10)))
+for x in range(10):
+    print("Hello")
