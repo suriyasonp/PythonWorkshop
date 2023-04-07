@@ -8,7 +8,6 @@ len(tupleEx)
 print(len(tupleEx))
 '''ฟังก์ชั่น len() ใช้แสดงจำนวนสมาชิกของ list,tuple,string,collection ต่างๆ '''
 
-
 '''Ex.2'''
 print(max(tupleEx))
 '''ฟังก์ชั่น max() แสดงข้อมูลที่มากที่สุด'''
