@@ -8,7 +8,7 @@ class ConvertCurrencyRates():
     currency_convert = ""
     value = ""
 
-    def convertCurrency(self):
+    def convert_currency(self):
         result_value = ""
         result_code = ""
         if self.currency_income == "GBP":
@@ -29,7 +29,7 @@ convert_rates = ConvertCurrencyRates()
 convert_rates.value = int(input("Please input value  :"))
 convert_rates.currency_income = input("Please input currency income  :").upper()
 convert_rates.currency_convert = input("Please input currency convert  :").upper()
-convert_rates.convertCurrency()
+convert_rates.convert_currency()
 
 
 
