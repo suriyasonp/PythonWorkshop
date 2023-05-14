@@ -23,3 +23,45 @@ print('Age of ' + user + ': ' + str(ref.get()))
 
 ref_somsong = db.reference('users/Sommai')
 print(ref_somsong.get())
+
+#Save data
+
+# Get a database reference to our blog.
+ref = db.reference('')
+
+users_ref = ref.child('users')
+users_ref.set({
+    'Sommai': {
+        'date_of_birth': 'June 23, 1990',
+        'full_name': 'Sommai Painaidee'
+    },
+    'Somsri': {
+        'date_of_birth': 'December 9, 1995',
+        'full_name': 'Somsri Meeginmeechai'
+    }
+})
+
+
+posts_ref = ref.child('users')
+
+new_post_ref = posts_ref.push()
+new_post_ref.set({
+    'author': 'gracehop',
+    'title': 'Announcing COBOL, a New Programming Language'
+})
+
+# We can also chain the two calls together
+posts_ref.push().set({
+    'author': 'alanisawesome',
+    'title': 'The Turing Machine'
+})
+
+
+hopper_ref = users_ref.child('gracehop')
+hopper_ref.update({
+    'nickname': 'Amazing Grace1111'
+})
+
+hopper_ref = ref.child('gracehop')
+hopper_ref.delete()
+print(ref.get())
