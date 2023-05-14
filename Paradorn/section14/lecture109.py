@@ -3,7 +3,7 @@ class Animal:
         print("Eating Eating!")
 
 class Cat(Animal):
-    name = ""
+    __name = ""
     def setName(self,text):
         self.name = text
         print("Setting Naw Cat Name")
@@ -12,5 +12,5 @@ class Cat(Animal):
 
 cat1 = Cat()
 cat1.setName("ET")
-cat1.name="dfdfsfsf"
+print(cat1.__name)
 cat1.eat()
